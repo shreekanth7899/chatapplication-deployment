@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ebebeb;
+    font-family: Arial, sans-serif;
+}
+
+.login-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    height: 300px;  /* Square box */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container h1 {
+    margin-bottom: 10px; /* Adjusted to fit content */
+    font-size: 1.5em; /* Adjusted for fitting */
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%; /* Ensure form takes full width */
+    align-items: center;
+}
+
+.login-container label {
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100%; /* Ensure label takes full width */
+}
+
+.login-container input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: calc(100% - 20px); /* Adjust width to fit padding */
+}
+
+.login-container button {
+    button {
+        background-color: #f0eeec;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+      }
+}
+
+.login-container button:hover {
+    background-color: #c8e7c1;
+}
+
+#error-message {
+    color: red;
+    margin-top: 10px;
+    width: 100%; /* Ensure error message takes full width */
+    text-align: center; /* Center the error message */
+}
